@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>flex-wrap属性</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      .box {
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+      }
+      .box1 {
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      .box2 {
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap-reverse;
+      }
+      .box-item {
+        width: 300px;
+        height: 300px;
+        line-height: 300px;
+        margin: 10px;
+        background-color: #ffd200;
+        font-size: 120px;
+        color: #ffffff;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box" style="margin-bottom: 100px;">
+      <div class="box-item">1</div>
+      <div class="box-item">2</div>
+      <div class="box-item">3</div>
+      <div class="box-item">4</div>
+      <div class="box-item">5</div>
+      <div class="box-item">6</div>
+      <div class="box-item">7</div>
+    </div>
+
+    <div class="box1" style="margin-bottom: 100px;">
+      <div class="box-item">1</div>
+      <div class="box-item">2</div>
+      <div class="box-item">3</div>
+      <div class="box-item">4</div>
+      <div class="box-item">5</div>
+      <div class="box-item">6</div>
+      <div class="box-item">7</div>
+    </div>
+
+    <div class="box2" style="margin-bottom: 100px;">
+      <div class="box-item">1</div>
+      <div class="box-item">2</div>
+      <div class="box-item">3</div>
+      <div class="box-item">4</div>
+      <div class="box-item">5</div>
+      <div class="box-item">6</div>
+      <div class="box-item">7</div>
+    </div>
+  </body>
+</html>
